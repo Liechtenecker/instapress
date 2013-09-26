@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/367956/instapress/trunk/PowerHour_Geocoder/Geocoder
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/367956/instapress/trunk/PowerHour_Geocoder/Geocoder/Exception.php
+END
+UnknownAddressException.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/367956/instapress/trunk/PowerHour_Geocoder/Geocoder/UnknownAddressException.php
+END

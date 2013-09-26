@@ -1,0 +1,296 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/instapress\n"
+"POT-Creation-Date: 2011-12-07 09:44:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-02-06 09:43+0100\n"
+"Last-Translator: Thomas Krammer <t.krammer@gmx.net>\n"
+"Language-Team: Gruber Kristof <gk@lka.hu>\n"
+
+#: instagram.php:164
+msgid "Next"
+msgstr "Következő"
+
+#: instagram.php:166
+msgid "Previous"
+msgstr "Előző"
+
+#: instagram.php:727
+msgid "Settings saved."
+msgstr "Sikeres mentés."
+
+#: instagram.php:731
+msgid "Instagram API reported the following error"
+msgstr "Az Instagram API a következő hibával tért vissza"
+
+#: instagram.php:788
+#: instagram.php:810
+#: instagram-options.php:2
+msgid "Settings"
+msgstr "Beállítások"
+
+#: instagram.php:829
+msgid "Like it on Facebook"
+msgstr "Like-old Facebook-on"
+
+#: instagram.php:831
+msgid "Visit our blog"
+msgstr "Látogasd meg blogunkat"
+
+#: instagram.php:937
+msgid "To improve performance of this plugin, it is highly recommended to make the directory wp-content or wp-content/cache writable. For further information click <a target=\"_blank\" href=\"%s\">here</a>"
+msgstr "A plugin sebességének növeléséhez erősen ajánlott, hogy a wp-content vagy a wp-content/cache könyvtár írható legyen. További információkért kattints <a target=\"_blank\" href=\"%s\">ide</a>"
+
+#: instagram.php:939
+msgid "Instapress requires <a href=\"http://php.net/manual/en/book.curl.php\" target=\"_blank\">PHP cURL</a> extension to work properly"
+msgstr "Az Instapress-nek <a href=\"http://php.net/manual/en/book.curl.php\" target=\"_blank\">PHP cURL</a> kiegészítőre van szüksége a működéshez"
+
+#: instagram.php:941
+msgid "Instapress Geocoding won't work unless <a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> is activated"
+msgstr "Az Instapress helymeghatározása (Geocoding) csak akkor működik, ha a <a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> aktiválva van"
+
+#: instagram.php:943
+msgid "Instapress needs to communicate with Instagram's API via SSL. If you are having troubles, please %sread that topic.%s"
+msgstr "Az Instapress SSL-en keresztül kommunikál az Instagram API-val. Ha problémáid vannak ezzel, akkor %sezt%s olvasd el!"
+
+#: tinymce/dialog.php:5
+msgid "Insert Instagram"
+msgstr "Instagram beszúrása"
+
+#: tinymce/dialog.php:33
+msgid "Option:"
+msgstr "Opció:"
+
+#: tinymce/dialog.php:35
+msgid "Instagram Feed"
+msgstr "Instagram Feed (képek)"
+
+#: tinymce/dialog.php:36
+msgid "Single Instagram"
+msgstr "Egy Instagram kép"
+
+#: tinymce/dialog.php:44
+#: widget.php:264
+msgid "Username:"
+msgstr "Felhasználó:"
+
+#: tinymce/dialog.php:49
+msgid "Tag:"
+msgstr "Címke:"
+
+#: tinymce/dialog.php:54
+#: widget.php:276
+msgid "Pics:"
+msgstr "Képek:"
+
+#: tinymce/dialog.php:56
+#: widget.php:278
+msgid "All"
+msgstr "Mind"
+
+#: tinymce/dialog.php:64
+#: widget.php:285
+msgid "Effect:"
+msgstr "Effekt:"
+
+#: tinymce/dialog.php:66
+#: widget.php:287
+msgid "None"
+msgstr "Nincs"
+
+#: tinymce/dialog.php:77
+#: widget.php:255
+msgid "Title:"
+msgstr "Cím:"
+
+#: tinymce/dialog.php:82
+msgid "Image gallery:"
+msgstr "Kép galéria:"
+
+#: tinymce/dialog.php:90
+msgid "URL"
+msgstr "URL"
+
+#: tinymce/dialog.php:94
+msgid "Facebook Like Button"
+msgstr "Facebook Like gomb"
+
+#: tinymce/dialog.php:100
+msgid "Size (max. 612)"
+msgstr "Méret (max. 612)"
+
+#: tinymce/dialog.php:108
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: tinymce/dialog.php:112
+msgid "Insert"
+msgstr "Beszúrás"
+
+#: classes/Instapress_TinyMCE.php:95
+msgid "Forbidden"
+msgstr "Letiltva"
+
+#: widget.php:16
+msgid "Displays your instagram pictures."
+msgstr "Megjeleníti az Instagram képeidet."
+
+#: widget.php:26
+msgid "Instagram"
+msgstr "Instagram"
+
+#: widget.php:155
+msgid "Instagram API did not respond."
+msgstr "Az Instagram API nem válaszolt."
+
+#: widget.php:234
+msgid "Instagrams"
+msgstr "Instagram képek"
+
+#: widget.php:236
+msgid "150"
+msgstr "150"
+
+#: widget.php:237
+msgid "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+msgstr "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+
+#: widget.php:247
+msgid "Before you can use this widget, update your <a href=\"%s\">Instagram settings</a>!"
+msgstr "Frissítsd az <a href=\"%s\">Instagram beállításaidat</a> a widget használatának megkezdése előtt!"
+
+#: widget.php:252
+msgid "Display Instagrams from User: "
+msgstr "A következő user képeinek megjelenítése: "
+
+#: widget.php:259
+msgid "Picture size:"
+msgstr "Kép méret:"
+
+#: widget.php:268
+msgid "Tag (Currently only one tag. Username is ignored.):"
+msgstr "Címke (jelenleg csak egy címkét tud, a felhasználónév ilyenkor mellőzve lesz)"
+
+#: widget.php:272
+msgid "Address/Coordinates:"
+msgstr "Cím/Koordináták:"
+
+#: widget.php:297
+msgid "Show title:"
+msgstr "Cím megjelenítése:"
+
+#: widget.php:301
+msgid "Random order:"
+msgstr "Véletlenszerű sorrend:"
+
+#: widget.php:305
+msgid "Image container:"
+msgstr "Kép container:"
+
+#: instagram-options.php:9
+msgid "Instapress requires at least PHP 5.0 to work properly, your version is: %s"
+msgstr "Az Instapress használatához legalább PHP 5.0-ra van szükség. Neked %s van."
+
+#: instagram-options.php:38
+msgid "Your application is authorized, have fun!"
+msgstr "A hitelesítés sikeres volt, jó szórakozást!"
+
+#: instagram-options.php:42
+msgid "Reset settings"
+msgstr "Beállítások alaphelyzetbe állítása"
+
+#: instagram-options.php:49
+msgid "Instapress requires authentication by xAuth in order to display your friends, public or your own feeds."
+msgstr "Az Instapress xAuth authentikációt használ a barátaid profiljának, egy nyilvános profilnak, vagy a saját profilod megjelenítéséhez."
+
+#: instagram-options.php:54
+msgid "To activate Instapress just enter your Instagram username and password"
+msgstr "Az Instapress aktiválásához csak az Instagram felhasználó nevedre és jelszavadra van szükség"
+
+#: instagram-options.php:58
+msgid "Username"
+msgstr "Felhasználó"
+
+#: instagram-options.php:62
+msgid "Password"
+msgstr "Jelszó"
+
+#: instagram-options.php:66
+#: instagram-options.php:119
+msgid "Save settings"
+msgstr "Beállítások mentése"
+
+#: instagram-options.php:73
+msgid "General settings"
+msgstr "Általános beállítások"
+
+#: instagram-options.php:78
+msgid "Refresh cache after"
+msgstr "A cache frissítése"
+
+#: instagram-options.php:86
+msgid "minutes"
+msgstr "percenként"
+
+#: instagram-options.php:92
+msgid "Cache is not active"
+msgstr "A cache nem aktív"
+
+#: instagram-options.php:99
+msgid "Disable any effects (e.g. fancybox)"
+msgstr "Minden effekt kikapcsolása (pl. fancybox)"
+
+#: instagram-options.php:101
+msgid "Note: Do only check this if you are having conflicts with other effects or if you do not want to use any effect"
+msgstr "Megjegyzés: Csak akkor kapcsold ki, ha ütközik más effektekkel, vagy tényleg nem akarsz semmi effektet"
+
+#: instagram-options.php:106
+msgid "Support Instapress by showing a backlink to http://instapress.it among widget or gallery"
+msgstr "Támogasd az Instapresst azzal, hogy kiraksz egy linket a http://instapress.it oldalra a galériád alá"
+
+#: instagram-options.php:109
+msgid "Professional settings"
+msgstr "Haladó beállítások"
+
+#: instagram-options.php:111
+msgid "Those settings may only affect you if you have a basic understanding for HTML."
+msgstr "Ezek a beállítások csak akkor érdekesek számodra, ha legalább alap szinten értesz a HTML-hez."
+
+#: instagram-options.php:115
+msgid "Disable width and height attribute for images (e.g. for responsive layouts)"
+msgstr "width és height attribútumok kikapcsolása a képeknél (pl. reszponzív layoutok esetén)"
+
+#: instagram-options.php:123
+msgid "Trouble shooting"
+msgstr "Hibakeresés"
+
+#: instagram-options.php:125
+msgid "If you're having troubles using this plugin, please be so kind as to report issues here: %s or by e-mail here: %s"
+msgstr "Ha problémáid adódnak a bővítmény használata során, kérlek legyél olyan kedves és ide küldd el a bugreportot: %s vagy e-mailben ide: %s"
+
+#: instagram-options.php:128
+msgid "You love this plugin?"
+msgstr "Szereted ezt a plugint?"
+
+#: instagram-options.php:130
+msgid "Then feel free to show your love. Unfortunately we don't like flowers but we would appreciate if you show your love by donating for this development. :)"
+msgstr "Akkor nyugodtan mutasd ki a szeretetedet! Sajnos a virágokat annyira nem szeretjük, de szívesen fogadunk adományokat a fejlesztés folytatására. :)"
+
+#: instagram-options.php:133
+msgid "Thank you!"
+msgstr "Köszi!"
+
+#: instagram-options.php:138
+#: instagram-options.php:139
+msgid "en_US"
+msgstr "hu_HU"
+
+#: instagram-options.php:138
+msgid "Jetzt einfach, schnell und sicher online bezahlen – mit PayPal."
+msgstr "Egyszerű, gyors és biztonságos online fizetés - PayPal"
+

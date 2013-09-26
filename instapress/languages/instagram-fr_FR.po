@@ -1,0 +1,231 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/instapress\n"
+"POT-Creation-Date: 2011-05-17 15:49:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-07-04 09:17+0100\n"
+"Last-Translator: Olivier Montbazet <kag12000@hotmail.com>\n"
+"Language-Team: LANGUAGE <zekag@free.fr>\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: tinymce/dialog.php:5
+msgid "Insert Instagram"
+msgstr "Insérer Instagram"
+
+#: tinymce/dialog.php:33
+msgid "Option:"
+msgstr ""
+
+#: tinymce/dialog.php:35
+msgid "Instagram Feed"
+msgstr "Flux Instagram"
+
+#: tinymce/dialog.php:36
+msgid "Single Instagram"
+msgstr "Instagram simple"
+
+#: tinymce/dialog.php:44
+#: widget.php:242
+msgid "Username:"
+msgstr "Nom d'utilisateur:"
+
+#: tinymce/dialog.php:49
+#: widget.php:250
+msgid "Pics:"
+msgstr "Images:"
+
+#: tinymce/dialog.php:51
+#: widget.php:252
+msgid "All"
+msgstr "Tout"
+
+#: tinymce/dialog.php:59
+#: widget.php:259
+msgid "Effect:"
+msgstr "Effet:"
+
+#: tinymce/dialog.php:61
+#: widget.php:261
+msgid "None"
+msgstr "Aucun(e)"
+
+#: tinymce/dialog.php:72
+#: widget.php:233
+msgid "Title:"
+msgstr "Titre:"
+
+#: tinymce/dialog.php:80
+msgid "URL"
+msgstr ""
+
+#: tinymce/dialog.php:86
+msgid "Size (max. 612)"
+msgstr "Taille (max. 612)"
+
+#: tinymce/dialog.php:94
+msgid "Cancel"
+msgstr "Annuler"
+
+#: tinymce/dialog.php:98
+msgid "Insert"
+msgstr "Insérer"
+
+#: instagram-options.php:2
+#: instagram.php:644
+#: instagram.php:666
+msgid "Settings"
+msgstr "Paramètres"
+
+#: instagram-options.php:10
+msgid "Your application is authorized, have fun!"
+msgstr "Votre application est validée, éclatez vous !"
+
+#: instagram-options.php:14
+msgid "Reset settings"
+msgstr "Réinitialiser les paramètres"
+
+#: instagram-options.php:21
+msgid "Instapress requires authentication by xAuth in order to display your friends, public or your own feeds."
+msgstr "Instapress nécessite une authentification par xAuth afin d'accéder à vos amis ou vos propres fluxs."
+
+#: instagram-options.php:26
+msgid "To activate Instapress just enter your Instagram username and password"
+msgstr "Pour activer Instapress, saisissez simplement vos nom d'utilisateur et mot de passe"
+
+#: instagram-options.php:30
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: instagram-options.php:34
+msgid "Password"
+msgstr "Mot de passe"
+
+#: instagram-options.php:38
+#: instagram-options.php:61
+msgid "Save settings"
+msgstr "Sauvegarder les paramètres"
+
+#: instagram-options.php:45
+msgid "General settings"
+msgstr "Paramètres généraux"
+
+#: instagram-options.php:50
+msgid "Refresh cache after"
+msgstr "Rafraichir le cache après"
+
+#: instagram-options.php:58
+msgid "minutes"
+msgstr ""
+
+#: instagram-options.php:68
+msgid "To improve performance of this plugin, it is highly recommended to make the directory wp-content or wp-content/cache writable. For further information click <a target=\"_blank\" href=\"%s\">here</a>"
+msgstr "Pour améliorer les performances de cette extenstion, il est hautement recommander de rendre le dossier wp-content ou wp-content/cache ouvert en écriture. Pour plus d'infos, cliquez <a target=\"_blank\" href=\"%s\">ici</a>"
+
+#: instagram-options.php:72
+msgid "Cache is not active"
+msgstr "Le cache n'est pas actif"
+
+#: instagram-options.php:79
+msgid "Trouble shooting"
+msgstr "Problèmes"
+
+#: instagram-options.php:81
+msgid "If you're having troubles using this plugin, please be so kind as to report issues here: %s or by e-mail here: %s"
+msgstr "Si vous avez des problèmes en utilisant cette extenstion, merci de reporter les bigs ici : %s ou par mèl là : %s"
+
+#: instagram-options.php:84
+msgid "You love this plugin?"
+msgstr "Vous aimez cette extension ?"
+
+#: instagram-options.php:86
+msgid "Then feel free to show your love. Unfortunately we don't like flowers but we would appreciate if you show your love by donating for this development. :)"
+msgstr "Alors, ne vous gènez pas pour montrer votre amour. Malheureusement, nous n'aimons pas les fleurs, mais vous pouvez faire un don pour nous aider à développer. :)"
+
+#: instagram-options.php:89
+msgid "Thank you!"
+msgstr "Merci !"
+
+#: instagram-options.php:94
+#: instagram-options.php:95
+msgid "en_US"
+msgstr "fr_FR"
+
+#: instagram-options.php:94
+msgid "Jetzt einfach, schnell und sicher online bezahlen – mit PayPal."
+msgstr "Faites un don en ligne via Paypal."
+
+#: classes/Instapress_TinyMCE.php:95
+msgid "Forbidden"
+msgstr "Accès interdit"
+
+#: widget.php:16
+msgid "Displays your instagram pictures."
+msgstr "Affiche vos photos Instagram"
+
+#: widget.php:26
+msgid "Instagram"
+msgstr ""
+
+#: widget.php:138
+msgid "Instagram API did not respond."
+msgstr "L'API Instagram ne répond pas"
+
+#: widget.php:212
+msgid "Instagrams"
+msgstr ""
+
+#: widget.php:214
+msgid "150"
+msgstr ""
+
+#: widget.php:215
+msgid "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+msgstr ""
+
+#: widget.php:225
+msgid "Before you can use this widget, update your <a href=\"%s\">Instagram settings</a>!"
+msgstr "Avant d'utiliser ce widget, réglez les  <a href=\"%s\">paramètres Instagram</a>!"
+
+#: widget.php:230
+msgid "Display Instagrams from User: "
+msgstr "Afficher le flux Instagram de l'utilisateur : "
+
+#: widget.php:237
+msgid "Picture size:"
+msgstr "Taille de l'image:"
+
+#: widget.php:246
+msgid "Address/Coordinates:"
+msgstr "Adresse/coordonnées"
+
+#: widget.php:271
+msgid "Show title (May decrease performance):"
+msgstr "Afficher le titre (peut réduire les performances):"
+
+#: widget.php:275
+msgid "Image container:"
+msgstr "Contenant de l'image:"
+
+#: instagram.php:586
+msgid "Settings saved."
+msgstr "Paramètres sauvegardés."
+
+#: instagram.php:590
+msgid "Instagram API reported the following error"
+msgstr "l'API Instagram rapporte l'erreur suivante "
+
+#: instagram.php:685
+msgid "Like it on Facebook"
+msgstr "Aimer sur Facebook"
+
+#: instagram.php:687
+msgid "Visit our blog"
+msgstr "Visiter notre blog"
+

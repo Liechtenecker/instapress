@@ -1,0 +1,109 @@
+.instagram-image
+{
+	padding: 5px;
+	background-color: #fff;
+	float:left;
+	margin-right: 10px;	
+	margin-top: 5px;
+}
+ 
+html[xmlns] .instapress-shortcode,
+html[xmlns] .instapress-shortcode-pager 
+{
+	display: block;
+}
+ 
+* html .instapress-shortcode,
+* html .instapress-shortcode-pager 
+{
+	height: 1%;
+}
+
+.instapress-shortcode:after,
+.instapress-shortcode-pager:after
+{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.instapress-shortcode,
+.instapress-shortcode-pager
+{
+	display: block;
+}
+
+	.instapress-shortcode .instapress-shortcode-image
+	{
+	    float: left;
+	    margin-right: 10px;
+	    margin-top: 10px;
+	}
+	
+.instagram-images-clear
+{
+	clear: both;
+	display: block;
+	height: 1px;
+}
+
+/**
+ * GALLERY FEATURES
+ */
+.instapress-shortcode-pager,
+.instapress-gallery
+{
+	clear: both;	
+}
+
+.instapress-gallery .instapress-shortcode-page
+{
+	margin: 0 auto;
+}
+
+.prev-page-instapress
+{
+	display: none;
+	float: left;
+}
+
+.next-page-instapress
+{
+	float: right;
+}
+
+.prev-page-instapress,
+.prev-page-instapress:visited,
+.next-page-instapress,
+.next-page-instapress:visited
+{
+	text-decoration: none;
+}
+
+#instapress-gallery-loading
+{
+	position: absolute;
+	display: none;
+	background: url(images/loading.gif) no-repeat center center;
+
+	background-color: transparent; 
+	background-color: rgba(153, 153, 153, 0.8); /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99B4B490,endColorstr=#99B4B490); /* IE6ÐIE9*/ 
+	zoom: 1;
+	
+	border: 5px solid #333;
+	
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.instagram-backlink
+{
+	clear: both;
+	display: block;
+}

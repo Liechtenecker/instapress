@@ -1,0 +1,288 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Instapress\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/instapress\n"
+"POT-Creation-Date: 2011-09-30 11:23:03+00:00\n"
+"PO-Revision-Date: 2011-11-01 13:51+0200\n"
+"Last-Translator: bohgdan zograf <bozograf@gmail.com>\n"
+"Language-Team: Iflexion <iflexion.1@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: widget.php:16
+msgid "Displays your instagram pictures."
+msgstr "Отображение фотографии instagram."
+
+#: widget.php:26
+msgid "Instagram"
+msgstr "Instagram"
+
+#: widget.php:156
+msgid "Instagram API did not respond."
+msgstr "Instagram API не ответил."
+
+#: widget.php:231
+msgid "Instagrams"
+msgstr "Instagrams"
+
+#: widget.php:233
+msgid "150"
+msgstr "150"
+
+#: widget.php:234
+msgid "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+msgstr "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+
+#: widget.php:244
+msgid "Before you can use this widget, update your <a href=\"%s\">Instagram settings</a>!"
+msgstr "Прежде чем использовать этот виджет, обновите <a href=\"%s\">Instagram settings</a>!"
+
+#: widget.php:249
+msgid "Display Instagrams from User: "
+msgstr "Показать Instagrams от пользователей:"
+
+#: widget.php:252
+#: tinymce/dialog.php:72
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: widget.php:256
+msgid "Picture size:"
+msgstr "Размер картинки:"
+
+#: widget.php:261
+#: tinymce/dialog.php:44
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: widget.php:265
+msgid "Address/Coordinates:"
+msgstr "Адресс/Координаты:"
+
+#: widget.php:269
+#: tinymce/dialog.php:49
+msgid "Pics:"
+msgstr "Фотографии:"
+
+#: widget.php:271
+#: tinymce/dialog.php:51
+msgid "All"
+msgstr "Все"
+
+#: widget.php:278
+#: tinymce/dialog.php:59
+msgid "Effect:"
+msgstr "Эффект:"
+
+#: widget.php:280
+#: tinymce/dialog.php:61
+msgid "None"
+msgstr "ни один"
+
+#: widget.php:290
+msgid "Show title:"
+msgstr "Показать заголовок:"
+
+#: widget.php:294
+msgid "Random order:"
+msgstr "В случайном порядке:"
+
+#: widget.php:298
+msgid "Image container:"
+msgstr "Содержание изображенияr:"
+
+#: classes/Instapress_TinyMCE.php:95
+msgid "Forbidden"
+msgstr "запрещенный"
+
+#: instagram-options.php:2
+#: instagram.php:744
+#: instagram.php:766
+msgid "Settings"
+msgstr "Настройки"
+
+#: instagram-options.php:9
+msgid "Instapress requires at least PHP 5.0 to work properly, your version is: %s"
+msgstr "Instapress требует по крайней мере PHP 5.0 для правильной работы, ваша версия %s"
+
+#: instagram-options.php:38
+msgid "Your application is authorized, have fun!"
+msgstr "Ваше приложение авторизированно, всего хорошего!"
+
+#: instagram-options.php:42
+msgid "Reset settings"
+msgstr "Сбросить настройки"
+
+#: instagram-options.php:49
+msgid "Instapress requires authentication by xAuth in order to display your friends, public or your own feeds."
+msgstr "Instapress требует аутентификации XAuth, чтобы показывать друзьям, общественности или собственных целей."
+
+#: instagram-options.php:54
+msgid "To activate Instapress just enter your Instagram username and password"
+msgstr "Для активации Instapress, введите имя пользователя и пароль Instagram"
+
+#: instagram-options.php:58
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: instagram-options.php:62
+msgid "Password"
+msgstr "Пароль"
+
+#: instagram-options.php:66
+#: instagram-options.php:119
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: instagram-options.php:73
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: instagram-options.php:78
+msgid "Refresh cache after"
+msgstr "Обновите кэш после"
+
+#: instagram-options.php:86
+msgid "minutes"
+msgstr "минуты"
+
+#: instagram-options.php:92
+msgid "Cache is not active"
+msgstr "Кэш не активен"
+
+#: instagram-options.php:99
+msgid "Disable any effects (e.g. fancybox)"
+msgstr "Отключите все эффекты (например, fancybox )"
+
+#: instagram-options.php:101
+msgid "Note: Do only check this if you are having conflicts with other effects or if you do not want to use any effect"
+msgstr "Примечание: Сделайте проверку только в том случае, если у вас возникли конфликты с другими эффектами или если вы не хотите использовать какой-либо эффект"
+
+#: instagram-options.php:106
+msgid "Support Instapress by showing a backlink to http://instapress.it among widget or gallery"
+msgstr "Поддержките Instapress, поставиви  обратную ссылку на http://instapress.it в  виджете или галерее"
+
+#: instagram-options.php:109
+msgid "Professional settings"
+msgstr "Професиональные настройки"
+
+#: instagram-options.php:111
+msgid "Those settings may only affect you if you have a basic understanding for HTML."
+msgstr "Эти параметры могут использоваться, если у вас есть  базовые знания по HTML."
+
+#: instagram-options.php:115
+msgid "Disable width and height attribute for images (e.g. for responsive layouts)"
+msgstr "Отключить ширину и высоту для изображений (например, реагировать макеты)"
+
+#: instagram-options.php:123
+msgid "Trouble shooting"
+msgstr "Устранение неисправностей"
+
+#: instagram-options.php:125
+msgid "If you're having troubles using this plugin, please be so kind as to report issues here: %s or by e-mail here: %s"
+msgstr "Если у вас возникли проблемы с данным плагином, пожалуйста, будьте так добры, сообщить о проблемах здесь %s или на мейл здесь: %s"
+
+#: instagram-options.php:128
+msgid "You love this plugin?"
+msgstr "Вам нравится этот плагин?"
+
+#: instagram-options.php:130
+msgid "Then feel free to show your love. Unfortunately we don't like flowers but we would appreciate if you show your love by donating for this development. :)"
+msgstr "Тогда не стесняйтесь показать свою любовь. К сожалению, нам не нравятся цветы, но мы были бы признательны, если Вы проявите  свою любовь, жертвуя деньги для развития.:)"
+
+#: instagram-options.php:133
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+#: instagram-options.php:138
+#: instagram-options.php:139
+msgid "en_US"
+msgstr "ru_RU"
+
+#: instagram-options.php:138
+msgid "Jetzt einfach, schnell und sicher online bezahlen – mit PayPal."
+msgstr "Теперь быстро и надежно вместе с PayPal."
+
+#: instagram.php:163
+msgid "Next"
+msgstr "Следующий"
+
+#: instagram.php:165
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: instagram.php:683
+msgid "Settings saved."
+msgstr "Настройки сохранены"
+
+#: instagram.php:687
+msgid "Instagram API reported the following error"
+msgstr "Instagram API сообщил  следующее сообщение об ошибке"
+
+#: instagram.php:785
+msgid "Like it on Facebook"
+msgstr "Мне нравится на Facebook"
+
+#: instagram.php:787
+msgid "Visit our blog"
+msgstr "Постетите наш Блог"
+
+#: instagram.php:893
+msgid "To improve performance of this plugin, it is highly recommended to make the directory wp-content or wp-content/cache writable. For further information click <a target=\"_blank\" href=\"%s\">here</a>"
+msgstr "Для повышения производительности этого плагина, настоятельно рекомендуется сделать  каталог WP- содержание или wp-content/cache записи. Для дальнейшей информации нажмите <a target=\"_blank\" href=\"%s\">здесь</a>"
+
+#: instagram.php:895
+msgid "Instapress requires <a href=\"http://php.net/manual/en/book.curl.php\" target=\"_blank\">PHP cURL</a> extension to work properly"
+msgstr "Instapress требует<a href=\"http://php.net/manual/en/book.curl.php\" target=\"_blank\">PHP cURL</a> расширение для правильной работы"
+
+#: instagram.php:897
+msgid "Instapress Geocoding won't work unless <a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> is activated"
+msgstr "Instapress Геокодирование не будет работать, если<a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> активно"
+
+#: tinymce/dialog.php:5
+msgid "Insert Instagram"
+msgstr "Вставьте Instagram"
+
+#: tinymce/dialog.php:33
+msgid "Option:"
+msgstr "Опции:"
+
+#: tinymce/dialog.php:35
+msgid "Instagram Feed"
+msgstr "Instagram поток"
+
+#: tinymce/dialog.php:36
+msgid "Single Instagram"
+msgstr "Единичный Instagram"
+
+#: tinymce/dialog.php:77
+msgid "Image gallery:"
+msgstr "Галерея:"
+
+#: tinymce/dialog.php:85
+msgid "URL"
+msgstr "URL"
+
+#: tinymce/dialog.php:89
+msgid "Facebook Like Button"
+msgstr "Facebook Like Button"
+
+#: tinymce/dialog.php:95
+msgid "Size (max. 612)"
+msgstr "Размер (макс. 612)"
+
+#: tinymce/dialog.php:103
+msgid "Cancel"
+msgstr "Отмена"
+
+#: tinymce/dialog.php:107
+msgid "Insert"
+msgstr "Вставить"
+
+#~ msgid "Show title (May decrease performance):"
+#~ msgstr "Titel anzeigen:"

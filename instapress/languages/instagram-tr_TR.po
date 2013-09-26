@@ -1,0 +1,371 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/instapress\n"
+"POT-Creation-Date: 2011-05-17 15:49:11+00:00\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: tinymce/dialog.php:5
+#@ instagram
+msgid "Insert Instagram"
+msgstr "Instagram ekle"
+
+#: tinymce/dialog.php:33
+#@ instagram
+msgid "Option:"
+msgstr "Seçenek:"
+
+#: tinymce/dialog.php:35
+#@ default
+msgid "Instagram Feed"
+msgstr "Instagram Yayını"
+
+#: tinymce/dialog.php:36
+#@ default
+msgid "Single Instagram"
+msgstr "Tek Instagram"
+
+#: tinymce/dialog.php:44
+#: widget.php:262
+#@ instagram
+msgid "Username:"
+msgstr "Kullanıcı ismi:"
+
+#: tinymce/dialog.php:54
+#: widget.php:274
+#@ instagram
+msgid "Pics:"
+msgstr "Fotolar:"
+
+#: tinymce/dialog.php:56
+#: widget.php:276
+#@ instagram
+msgid "All"
+msgstr "Hepsi"
+
+#: tinymce/dialog.php:64
+#: widget.php:283
+#@ instagram
+msgid "Effect:"
+msgstr "Efekt:"
+
+#: tinymce/dialog.php:66
+#: widget.php:285
+#@ instagram
+msgid "None"
+msgstr "Hiçbiri"
+
+#: tinymce/dialog.php:77
+#: widget.php:253
+#@ instagram
+msgid "Title:"
+msgstr "Başlık:"
+
+#: tinymce/dialog.php:90
+#@ instagram
+msgid "URL"
+msgstr "URL"
+
+#: tinymce/dialog.php:100
+#@ instagram
+msgid "Size (max. 612)"
+msgstr "Boyut (612 max.)"
+
+#: tinymce/dialog.php:108
+#@ instagram
+msgid "Cancel"
+msgstr "İptal"
+
+#: tinymce/dialog.php:112
+#@ instagram
+msgid "Insert"
+msgstr "Ekle"
+
+#: instagram-options.php:2
+#: instagram.php:789
+#: instagram.php:811
+#@ instagram
+msgid "Settings"
+msgstr "Ayarları"
+
+#: instagram-options.php:38
+#@ instagram
+msgid "Your application is authorized, have fun!"
+msgstr "Yazılımın yetkilendirildi, keyfini çıkar!"
+
+#: instagram-options.php:42
+#@ instagram
+msgid "Reset settings"
+msgstr "Ayarları sıfırla"
+
+#: instagram-options.php:49
+#@ instagram
+msgid "Instapress requires authentication by xAuth in order to display your friends, public or your own feeds."
+msgstr "Instapress arkadaşların, genel kullanıcıların veya senin kendi yayınlarını görüntülemek için xAuth yetkilendirmesi gerektirir."
+
+#: instagram-options.php:54
+#@ instagram
+msgid "To activate Instapress just enter your Instagram username and password"
+msgstr "Instapress'i aktifleştirmek için sadece Instagram kullanıcı ismi ve şifreni gir."
+
+#: instagram-options.php:58
+#@ instagram
+msgid "Username"
+msgstr "Kullanıcı ismi"
+
+#: instagram-options.php:62
+#@ instagram
+msgid "Password"
+msgstr "Parola"
+
+#: instagram-options.php:66
+#: instagram-options.php:119
+#@ instagram
+msgid "Save settings"
+msgstr "Ayarları kaydet"
+
+#: instagram-options.php:73
+#@ instagram
+msgid "General settings"
+msgstr "Genel ayarlar"
+
+#: instagram-options.php:78
+#@ instagram
+msgid "Refresh cache after"
+msgstr "Önbelleği tazele"
+
+#: instagram-options.php:86
+#@ instagram
+msgid "minutes"
+msgstr " dakika"
+
+#: instagram.php:938
+#, php-format
+#@ instagram
+msgid "To improve performance of this plugin, it is highly recommended to make the directory wp-content or wp-content/cache writable. For further information click <a target=\"_blank\" href=\"%s\">here</a>"
+msgstr "Bu eklentinin performansını iyileştirmek için wp-content veya wp-content/cache klasörlerinin yazılabilir (writable) olması önerilir. Daha fazla bilgi için <a target=\"_blank\" href=\"%s\">buraya</a> tıkla."
+
+#: instagram-options.php:92
+#@ instagram
+msgid "Cache is not active"
+msgstr "Önbellek aktif değil"
+
+#: instagram-options.php:123
+#@ instagram
+msgid "Trouble shooting"
+msgstr "Sorun giderme"
+
+#: instagram-options.php:125
+#, php-format
+#@ instagram
+msgid "If you're having troubles using this plugin, please be so kind as to report issues here: %s or by e-mail here: %s"
+msgstr "Bu eklentiyi kullanırken sıkıntı yaşarsan, sorunları lütfen buraya bildir: %s veya buraya e-postala: %s"
+
+#: instagram-options.php:128
+#@ instagram
+msgid "You love this plugin?"
+msgstr "Bu eklentiyi sevdin mi?"
+
+#: instagram-options.php:130
+#@ instagram
+msgid "Then feel free to show your love. Unfortunately we don't like flowers but we would appreciate if you show your love by donating for this development. :)"
+msgstr "O halde sevgini göstermekten çekinme. Çiçeklerden hoşlanmıyoruz maalesef ama sevgini bağışta bulunarak göstermenden memnuniyet duyarız. :)"
+
+#: instagram-options.php:133
+#@ instagram
+msgid "Thank you!"
+msgstr "Teşekkürler!"
+
+#: instagram-options.php:138
+#: instagram-options.php:139
+#@ instagram
+msgid "en_US"
+msgstr "en_US"
+
+#: instagram-options.php:138
+#@ instagram
+msgid "Jetzt einfach, schnell und sicher online bezahlen – mit PayPal."
+msgstr "Hemen hızlı, kolay ve güvenli bir şekilde online ödeme – PayPal ile."
+
+#: classes/Instapress_TinyMCE.php:95
+#@ default
+msgid "Forbidden"
+msgstr "İzin verilmiyor"
+
+#: widget.php:16
+#@ instagram
+msgid "Displays your instagram pictures."
+msgstr "Kendi Instagram resimlerini görüntüler."
+
+#: widget.php:26
+#@ instagram
+msgid "Instagram"
+msgstr "Instagram"
+
+#: widget.php:156
+#@ instagram
+msgid "Instagram API did not respond."
+msgstr "Instagram API'si yanıt vermedi."
+
+#: widget.php:232
+#@ instagram
+msgid "Instagrams"
+msgstr "Instagramlar"
+
+#: widget.php:234
+#@ instagram
+msgid "150"
+msgstr "150"
+
+#: widget.php:235
+#, php-format
+#@ default
+msgid "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+msgstr "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+
+#: widget.php:245
+#, php-format
+#@ default
+msgid "Before you can use this widget, update your <a href=\"%s\">Instagram settings</a>!"
+msgstr "Bu eklentiyi kullanmaya başlayabilmen için, <a href=\"%s\">Instagram ayarlarını</a>güncelle!"
+
+#: widget.php:250
+#@ default
+msgid "Display Instagrams from User: "
+msgstr "Şu kullanıcının Instagramlarını görüntüler: "
+
+#: widget.php:257
+#@ instagram
+msgid "Picture size:"
+msgstr "Resim boyutu:"
+
+#: widget.php:270
+#@ instagram
+msgid "Address/Coordinates:"
+msgstr "Adres/Koordinatlar:"
+
+#: widget.php:303
+#@ instagram
+msgid "Image container:"
+msgstr "Resim taşıyıcısı:"
+
+#: instagram.php:728
+#@ instagram
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+#: instagram.php:732
+#@ instagram
+msgid "Instagram API reported the following error"
+msgstr "Instagram API'si şu hata çıktısını verdi"
+
+#: instagram.php:830
+#@ instagram
+msgid "Like it on Facebook"
+msgstr "Facebook'ta Beğen"
+
+#: instagram.php:832
+#@ instagram
+msgid "Visit our blog"
+msgstr "Blogumuza uğra"
+
+#: instagram-options.php:9
+#, php-format
+#@ instagram
+msgid "Instapress requires at least PHP 5.0 to work properly, your version is: %s"
+msgstr "Instapress düzgün işlemesi için en düşük PHP 5.0 sürümü gerektiriyor, sizinkisi: %s"
+
+#: instagram-options.php:99
+#@ instagram
+msgid "Disable any effects (e.g. fancybox)"
+msgstr "Efektleri etkisizleştir (örn. fancybox)"
+
+#: instagram-options.php:101
+#@ instagram
+msgid "Note: Do only check this if you are having conflicts with other effects or if you do not want to use any effect"
+msgstr "Not: Bunu sadece diğer efektlerle çakışma durumunda işaretle veya herhangi bir efekt kullanmak istemiyorsan"
+
+#: instagram.php:164
+#@ instagram
+msgid "Next"
+msgstr "Sonraki"
+
+#: instagram.php:166
+#@ instagram
+msgid "Previous"
+msgstr "Önceki"
+
+#: instagram.php:940
+#@ instagram
+msgid "Instapress requires <a href=\"http://php.net/manual/en/book.curl.php\" target=\"_blank\">PHP cURL</a> extension to work properly"
+msgstr "Instapress düzgün işlemesi için <a href=\"http://php.net/manual/en/book.curl.php\" target=\"_blank\">PHP cURL</a> genişletmesi gerektirir"
+
+#: instagram.php:942
+#@ instagram
+msgid "Instapress Geocoding won't work unless <a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> is activated"
+msgstr "Instapress Geocoding özelliği <a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> aktive edilmedikçe çalışmaz"
+
+#: tinymce/dialog.php:82
+#@ instagram
+msgid "Image gallery:"
+msgstr "Resim galerisi:"
+
+#: tinymce/dialog.php:94
+#@ instagram
+msgid "Facebook Like Button"
+msgstr "Facebook Beğen Düğmesi"
+
+#: widget.php:299
+#@ instagram
+msgid "Random order:"
+msgstr "Rastgele sıralı:"
+
+#: instagram-options.php:106
+#@ instagram
+msgid "Support Instapress by showing a backlink to http://instapress.it among widget or gallery"
+msgstr "Instapress'i widget veya galeri içinde bir linkle görüntüleyerek destekle"
+
+#: instagram-options.php:109
+#@ instagram
+msgid "Professional settings"
+msgstr "Profesyonel ayarlar"
+
+#: instagram-options.php:111
+#@ instagram
+msgid "Those settings may only affect you if you have a basic understanding for HTML."
+msgstr "Bu ayarlar temel bir HTML bilgisine sahipseniz sizi ilgilendiriyor olabilir."
+
+#: instagram-options.php:115
+#@ instagram
+msgid "Disable width and height attribute for images (e.g. for responsive layouts)"
+msgstr "Resimler için genişlik ve yükseklik ayarlarını gözardı et (örn. esneyebilir arayüzlerde)"
+
+#: tinymce/dialog.php:49
+#@ instagram
+msgid "Tag:"
+msgstr "Etiket:"
+
+#: widget.php:266
+#@ instagram
+msgid "Tag (Currently only one tag. Username is ignored.):"
+msgstr "Etiket (Şu anda tek bir etiket. Kullanıcı ismi gözardı edilir.):"
+
+#: widget.php:295
+#@ instagram
+msgid "Show title:"
+msgstr "Başlığı göster:"
+

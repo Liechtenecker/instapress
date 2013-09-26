@@ -1,0 +1,231 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Instapress\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/instapress\n"
+"POT-Creation-Date: 2011-05-17 15:49:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-11-01 11:38+0100\n"
+"Last-Translator: Thomas Krammer <t.krammer@gmx.net>\n"
+"Language-Team: Luke <lktyler9@gmail.com>\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: tinymce/dialog.php:5
+msgid "Insert Instagram"
+msgstr "Insereaza Instagram"
+
+#: tinymce/dialog.php:33
+msgid "Option:"
+msgstr "Optiune:"
+
+#: tinymce/dialog.php:35
+msgid "Instagram Feed"
+msgstr "Feed Instagram"
+
+#: tinymce/dialog.php:36
+msgid "Single Instagram"
+msgstr "Instagram simplu"
+
+#: tinymce/dialog.php:44
+#: widget.php:242
+msgid "Username:"
+msgstr "Nume utilizator"
+
+#: tinymce/dialog.php:49
+#: widget.php:250
+msgid "Pics:"
+msgstr "Poze"
+
+#: tinymce/dialog.php:51
+#: widget.php:252
+msgid "All"
+msgstr "Toate"
+
+#: tinymce/dialog.php:59
+#: widget.php:259
+msgid "Effect:"
+msgstr "Efect"
+
+#: tinymce/dialog.php:61
+#: widget.php:261
+msgid "None"
+msgstr "Deloc"
+
+#: tinymce/dialog.php:72
+#: widget.php:233
+msgid "Title:"
+msgstr "Titlu:"
+
+#: tinymce/dialog.php:80
+msgid "URL"
+msgstr "URL"
+
+#: tinymce/dialog.php:86
+msgid "Size (max. 612)"
+msgstr "Marime (max. 612)"
+
+#: tinymce/dialog.php:94
+msgid "Cancel"
+msgstr "Anuleaza"
+
+#: tinymce/dialog.php:98
+msgid "Insert"
+msgstr "Insereaza"
+
+#: instagram-options.php:2
+#: instagram.php:644
+#: instagram.php:666
+msgid "Settings"
+msgstr "Setari"
+
+#: instagram-options.php:10
+msgid "Your application is authorized, have fun!"
+msgstr "Aplicatia este autorizata, distractie placuta!"
+
+#: instagram-options.php:14
+msgid "Reset settings"
+msgstr "Reseteaza setarile"
+
+#: instagram-options.php:21
+msgid "Instapress requires authentication by xAuth in order to display your friends, public or your own feeds."
+msgstr "Instapress necesita autentificare prin xAuth pentru a afisa va prietenii, publicul sau propriile feed-uri."
+
+#: instagram-options.php:26
+msgid "To activate Instapress just enter your Instagram username and password"
+msgstr "Pentru a activa Instapress, introduceti numele de utilizator Instagram si parola"
+
+#: instagram-options.php:30
+msgid "Username"
+msgstr "Nume utilizator"
+
+#: instagram-options.php:34
+msgid "Password"
+msgstr "Parola"
+
+#: instagram-options.php:38
+#: instagram-options.php:61
+msgid "Save settings"
+msgstr "Salveaza setarile"
+
+#: instagram-options.php:45
+msgid "General settings"
+msgstr "Setari generale"
+
+#: instagram-options.php:50
+msgid "Refresh cache after"
+msgstr "Reimprospateaza cache-ul dupa"
+
+#: instagram-options.php:58
+msgid "minutes"
+msgstr "minute"
+
+#: instagram-options.php:68
+msgid "To improve performance of this plugin, it is highly recommended to make the directory wp-content or wp-content/cache writable. For further information click <a target=\"_blank\" href=\"%s\">here</a>"
+msgstr "Pentru a imbunatati performanta acestui plugin, este recomandat sa faceti directorul wp-content sau wp-content/cache writable. Pentru mai multe informatii, accesati <a target=\"_blank\" href=\"%s\">link-ul</a>"
+
+#: instagram-options.php:72
+msgid "Cache is not active"
+msgstr "Cache-ul nu este activ"
+
+#: instagram-options.php:79
+msgid "Trouble shooting"
+msgstr "Ajutor"
+
+#: instagram-options.php:81
+msgid "If you're having troubles using this plugin, please be so kind as to report issues here: %s or by e-mail here: %s"
+msgstr "Daca aveti probleme cu acest plugin, raportati-le aici: %s or sau prim email aici: %s"
+
+#: instagram-options.php:84
+msgid "You love this plugin?"
+msgstr "Va place acest plugin?"
+
+#: instagram-options.php:86
+msgid "Then feel free to show your love. Unfortunately we don't like flowers but we would appreciate if you show your love by donating for this development. :)"
+msgstr "Aratati-va apreciere. Nu ne plac florile dar puteti face o donatie pentru dezvoltarea continua a pluginului."
+
+#: instagram-options.php:89
+msgid "Thank you!"
+msgstr "Multumesc!"
+
+#: instagram-options.php:94
+#: instagram-options.php:95
+msgid "en_US"
+msgstr "ro_RO"
+
+#: instagram-options.php:94
+msgid "Jetzt einfach, schnell und sicher online bezahlen – mit PayPal."
+msgstr "Faceti o donatie cu  Paypal."
+
+#: classes/Instapress_TinyMCE.php:95
+msgid "Forbidden"
+msgstr "Acces nepermis"
+
+#: widget.php:16
+msgid "Displays your instagram pictures."
+msgstr "Afiseaza imaginile Instagram."
+
+#: widget.php:26
+msgid "Instagram"
+msgstr "Instagram"
+
+#: widget.php:138
+msgid "Instagram API did not respond."
+msgstr "API-ul Instagram nu a raspuns"
+
+#: widget.php:212
+msgid "Instagrams"
+msgstr "Instagrams"
+
+#: widget.php:214
+msgid "150"
+msgstr "150"
+
+#: widget.php:215
+msgid "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+msgstr "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+
+#: widget.php:225
+msgid "Before you can use this widget, update your <a href=\"%s\">Instagram settings</a>!"
+msgstr "Inainte de a utiliza acest widget, modificati <a href=\"%s\">setarile Instagram</a>!"
+
+#: widget.php:230
+msgid "Display Instagrams from User: "
+msgstr "Afiseaza flux Instagram de la utilizatorul: "
+
+#: widget.php:237
+msgid "Picture size:"
+msgstr "Dimensiune imagine:"
+
+#: widget.php:246
+msgid "Address/Coordinates:"
+msgstr "Adresa/coordonate"
+
+#: widget.php:271
+msgid "Show title (May decrease performance):"
+msgstr "Arata titlu (poate reduce performanta):"
+
+#: widget.php:275
+msgid "Image container:"
+msgstr "Container imagine:"
+
+#: instagram.php:586
+msgid "Settings saved."
+msgstr "Setari salvate."
+
+#: instagram.php:590
+msgid "Instagram API reported the following error"
+msgstr "API-ul Instagram a raportat urmatoarea eroare"
+
+#: instagram.php:685
+msgid "Like it on Facebook"
+msgstr "Da-ne un like pe Facebook"
+
+#: instagram.php:687
+msgid "Visit our blog"
+msgstr "Viziteaza blogul nostru"
+

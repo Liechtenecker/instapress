@@ -1,0 +1,296 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/instapress\n"
+"POT-Creation-Date: 2011-12-07 09:44:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-08-20 14:02+0100\n"
+"Last-Translator: Mischinger Sarah <s.mischinger@liechtenecker.at>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: instagram.php:164
+msgid "Next"
+msgstr "Nästa"
+
+#: instagram.php:166
+msgid "Previous"
+msgstr "Föregående"
+
+#: instagram.php:727
+msgid "Settings saved."
+msgstr "Ändringar sparade"
+
+#: instagram.php:731
+msgid "Instagram API reported the following error"
+msgstr "Instagram API:t rapporterar följande fel"
+
+#: instagram.php:788
+#: instagram.php:810
+#: instagram-options.php:2
+msgid "Settings"
+msgstr "Inställningar"
+
+#: instagram.php:829
+msgid "Like it on Facebook"
+msgstr " Gilla på Facebook"
+
+#: instagram.php:831
+msgid "Visit our blog"
+msgstr "Besök vår blogg"
+
+#: instagram.php:937
+msgid "To improve performance of this plugin, it is highly recommended to make the directory wp-content or wp-content/cache writable. For further information click <a target=\"_blank\" href=\"%s\">here</a>"
+msgstr "För att förbättra prestandan för detta tillägg, är det starkt rekommenderatatt du gör din wp-content-katalog eller wp-content/cache-katalig skrivbar.För vidare information klicka <a target=\"_blank\" href=\"%s\">här</a>"
+
+#: instagram.php:939
+msgid "Instapress requires <a href=\"http://php.net/manual/en/book.curl.php\" target=\"_blank\">PHP cURL</a> extension to work properly"
+msgstr "Instapress kräver <a href=\"http://php.net/manual/en/book.curl.php\" target=\"\"_blank\">PHP cURL</a> tillägget för att fungera ordentligt"
+
+#: instagram.php:941
+msgid "Instapress Geocoding won't work unless <a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> is activated"
+msgstr "Instapress Geocoding kommer inte fungera om du inte aktiverar <a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> först."
+
+#: instagram.php:943
+msgid "Instapress needs to communicate with Instagram's API via SSL. If you are having troubles, please %sread that topic.%s"
+msgstr "Instapress måste kommunicera med Instagram's API via SSL. Om du har problem,läs %smer om ämnet.%s"
+
+#: tinymce/dialog.php:5
+msgid "Insert Instagram"
+msgstr "Infoga Instagram"
+
+#: tinymce/dialog.php:33
+msgid "Option:"
+msgstr "Alternativ:"
+
+#: tinymce/dialog.php:35
+msgid "Instagram Feed"
+msgstr "Instagram feed"
+
+#: tinymce/dialog.php:36
+msgid "Single Instagram"
+msgstr "Singel Instagram"
+
+#: tinymce/dialog.php:44
+#: widget.php:264
+msgid "Username:"
+msgstr "Användarnamn:"
+
+#: tinymce/dialog.php:49
+msgid "Tag:"
+msgstr "Tagg:"
+
+#: tinymce/dialog.php:54
+#: widget.php:276
+msgid "Pics:"
+msgstr "Bilder:"
+
+#: tinymce/dialog.php:56
+#: widget.php:278
+msgid "All"
+msgstr "Alla"
+
+#: tinymce/dialog.php:64
+#: widget.php:285
+msgid "Effect:"
+msgstr "Effekt:"
+
+#: tinymce/dialog.php:66
+#: widget.php:287
+msgid "None"
+msgstr "Ingen"
+
+#: tinymce/dialog.php:77
+#: widget.php:255
+msgid "Title:"
+msgstr "Titel:"
+
+#: tinymce/dialog.php:82
+msgid "Image gallery:"
+msgstr "Bildgalleri:"
+
+#: tinymce/dialog.php:90
+msgid "URL"
+msgstr "URL"
+
+#: tinymce/dialog.php:94
+msgid "Facebook Like Button"
+msgstr "Facebook gilla-knapp"
+
+#: tinymce/dialog.php:100
+msgid "Size (max. 612)"
+msgstr "Storlek (max 612)"
+
+#: tinymce/dialog.php:108
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: tinymce/dialog.php:112
+msgid "Insert"
+msgstr "Infoga"
+
+#: classes/Instapress_TinyMCE.php:95
+msgid "Forbidden"
+msgstr "Otillåtet"
+
+#: widget.php:16
+msgid "Displays your instagram pictures."
+msgstr "Visa dina instagrambilder."
+
+#: widget.php:26
+msgid "Instagram"
+msgstr "Instagram"
+
+#: widget.php:155
+msgid "Instagram API did not respond."
+msgstr "Instagrams API svarade inte."
+
+#: widget.php:234
+msgid "Instagrams"
+msgstr "Instagrams"
+
+#: widget.php:236
+msgid "150"
+msgstr "150"
+
+#: widget.php:237
+msgid "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+msgstr "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+
+#: widget.php:247
+msgid "Before you can use this widget, update your <a href=\"%s\">Instagram settings</a>!"
+msgstr "Innan du kan använda denna widget, uppdatera <a href=\"%s\"\">Instagraminställningarna</a>!"
+
+#: widget.php:252
+msgid "Display Instagrams from User: "
+msgstr "Visa Instagrams från användaren:"
+
+#: widget.php:259
+msgid "Picture size:"
+msgstr "Bildstorlek:"
+
+#: widget.php:268
+msgid "Tag (Currently only one tag. Username is ignored.):"
+msgstr "Tagg (Förnuvarande bara en tagg. Användarnamnet ignoreras.):"
+
+#: widget.php:272
+msgid "Address/Coordinates:"
+msgstr "Adress/Kordinater:"
+
+#: widget.php:297
+msgid "Show title:"
+msgstr "Visa titel:"
+
+#: widget.php:301
+msgid "Random order:"
+msgstr "Slumpmässig"
+
+#: widget.php:305
+msgid "Image container:"
+msgstr "Bildkontainer:"
+
+#: instagram-options.php:9
+msgid "Instapress requires at least PHP 5.0 to work properly, your version is: %s"
+msgstr "Instapress kräver minst PHP 5.0 för att fungera korrekt, din version är: %s"
+
+#: instagram-options.php:38
+msgid "Your application is authorized, have fun!"
+msgstr "Ditt tillägg är auktoriserat, ha så skoj!"
+
+#: instagram-options.php:42
+msgid "Reset settings"
+msgstr "Återställ inställningar"
+
+#: instagram-options.php:49
+msgid "Instapress requires authentication by xAuth in order to display your friends, public or your own feeds."
+msgstr "Instapress kräver auktorisering mha xAuth för att kunna visa dina vänner, publika eller dina egna feeds"
+
+#: instagram-options.php:54
+msgid "To activate Instapress just enter your Instagram username and password"
+msgstr "För att aktivera Instapress fyll i ditt användarnamn och lösenord."
+
+#: instagram-options.php:58
+msgid "Username"
+msgstr "Användarnamn"
+
+#: instagram-options.php:62
+msgid "Password"
+msgstr "Lösenord"
+
+#: instagram-options.php:66
+#: instagram-options.php:119
+msgid "Save settings"
+msgstr "Spara inställningar"
+
+#: instagram-options.php:73
+msgid "General settings"
+msgstr "Allmänna inställningar"
+
+#: instagram-options.php:78
+msgid "Refresh cache after"
+msgstr "Uppdatera cache efter"
+
+#: instagram-options.php:86
+msgid "minutes"
+msgstr "minuter"
+
+#: instagram-options.php:92
+msgid "Cache is not active"
+msgstr "Chache är inte aktiverat"
+
+#: instagram-options.php:99
+msgid "Disable any effects (e.g. fancybox)"
+msgstr "Inaktivera alla effeer (e.x. fancybox)"
+
+#: instagram-options.php:101
+msgid "Note: Do only check this if you are having conflicts with other effects or if you do not want to use any effect"
+msgstr "Kommentar: Klicka bara i det här om du har konflikter med andra effekter eller om du inte vill använda någon effekt alls."
+
+#: instagram-options.php:106
+msgid "Support Instapress by showing a backlink to http://instapress.it among widget or gallery"
+msgstr "Supporta Instapress genom att visa en länk till http://instapress.it bland widget eller ditt galleri"
+
+#: instagram-options.php:109
+msgid "Professional settings"
+msgstr "Avancerade inställningar"
+
+#: instagram-options.php:111
+msgid "Those settings may only affect you if you have a basic understanding for HTML."
+msgstr "De här inställningarna har bara effekt om du har grundläggande kunskaper i HTML."
+
+#: instagram-options.php:115
+msgid "Disable width and height attribute for images (e.g. for responsive layouts)"
+msgstr "Inaktivera bredd- och höjdattributen för bilder (e.x. för responsiva layouter)"
+
+#: instagram-options.php:123
+msgid "Trouble shooting"
+msgstr "Felsökning"
+
+#: instagram-options.php:125
+msgid "If you're having troubles using this plugin, please be so kind as to report issues here: %s or by e-mail here: %s"
+msgstr "Om du har problem med det här tillägget, vänligen rapportera felet här: %seller via epost här: %s"
+
+#: instagram-options.php:128
+msgid "You love this plugin?"
+msgstr "Gillar du det här tillägget?"
+
+#: instagram-options.php:130
+msgid "Then feel free to show your love. Unfortunately we don't like flowers but we would appreciate if you show your love by donating for this development. :)"
+msgstr "Vänligen visa det. Olyckligtvis gillar vi inte blommor men vi skulleuppskatta om du bidrog till detta tillägg via en donation. :)"
+
+#: instagram-options.php:133
+msgid "Thank you!"
+msgstr "Tack så mycket!"
+
+#: instagram-options.php:138
+#: instagram-options.php:139
+msgid "en_US"
+msgstr "sv_SE"
+
+#: instagram-options.php:138
+msgid "Jetzt einfach, schnell und sicher online bezahlen – mit PayPal."
+msgstr "Nu snabbt, enkelt och säkert betala online – med PayPal."
+

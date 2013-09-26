@@ -1,0 +1,286 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Instapress\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/instapress\n"
+"POT-Creation-Date: 2011-09-30 11:23:03+00:00\n"
+"PO-Revision-Date: 2011-09-30 13:24+0100\n"
+"Last-Translator: Thomas Krammer <t.krammer@gmx.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: widget.php:16
+msgid "Displays your instagram pictures."
+msgstr "Zeigt deine Instagram Bilder."
+
+#: widget.php:26
+msgid "Instagram"
+msgstr "Instagram"
+
+#: widget.php:156
+msgid "Instagram API did not respond."
+msgstr "Das Instagram API hat nicht geantwortet."
+
+#: widget.php:231
+msgid "Instagrams"
+msgstr "Instagrams"
+
+#: widget.php:233
+msgid "150"
+msgstr "150"
+
+#: widget.php:234
+msgid "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+msgstr "<div class=\"instagram-image\" id=\"instagram-image-%index%\">%image%</div>"
+
+#: widget.php:244
+msgid "Before you can use this widget, update your <a href=\"%s\">Instagram settings</a>!"
+msgstr "Bevor du dieses Widget verwenden kannst musst du deine <a href=\"%s\">Instagram Einstellungen</a> ändern!"
+
+#: widget.php:249
+msgid "Display Instagrams from User: "
+msgstr "Instagrams von folgendem User anzeigen:"
+
+#: widget.php:252
+#: tinymce/dialog.php:72
+msgid "Title:"
+msgstr "Titel:"
+
+#: widget.php:256
+msgid "Picture size:"
+msgstr "Bildgröße:"
+
+#: widget.php:261
+#: tinymce/dialog.php:44
+msgid "Username:"
+msgstr "Benutzername:"
+
+#: widget.php:265
+msgid "Address/Coordinates:"
+msgstr "Adresse/Geokoordinaten:"
+
+#: widget.php:269
+#: tinymce/dialog.php:49
+msgid "Pics:"
+msgstr "Fotos:"
+
+#: widget.php:271
+#: tinymce/dialog.php:51
+msgid "All"
+msgstr "Alle"
+
+#: widget.php:278
+#: tinymce/dialog.php:59
+msgid "Effect:"
+msgstr "Effekt:"
+
+#: widget.php:280
+#: tinymce/dialog.php:61
+msgid "None"
+msgstr "Keiner"
+
+#: widget.php:290
+msgid "Show title:"
+msgstr "Titel anzeigen:"
+
+#: widget.php:294
+msgid "Random order:"
+msgstr "Zufällige Reihenfolge:"
+
+#: widget.php:298
+msgid "Image container:"
+msgstr "Bild Container:"
+
+#: classes/Instapress_TinyMCE.php:95
+msgid "Forbidden"
+msgstr "Nicht erlaubt"
+
+#: instagram-options.php:2
+#: instagram.php:744
+#: instagram.php:766
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: instagram-options.php:9
+msgid "Instapress requires at least PHP 5.0 to work properly, your version is: %s"
+msgstr "Instapress benötigt mindestens PHP 5.0 um ordnungsgemäß zu funktionieren. Du verwendest Version %s"
+
+#: instagram-options.php:38
+msgid "Your application is authorized, have fun!"
+msgstr "Deine Applikation ist autorisiert. Viel Spaß!"
+
+#: instagram-options.php:42
+msgid "Reset settings"
+msgstr "Einstellungen zurücksetzen"
+
+#: instagram-options.php:49
+msgid "Instapress requires authentication by xAuth in order to display your friends, public or your own feeds."
+msgstr "Instapress erfordert xAuth-Authentifizierung um Instagrams deiner Freunde, öffentliche Instagrams oder deinen Feed darzustellen."
+
+#: instagram-options.php:54
+msgid "To activate Instapress just enter your Instagram username and password"
+msgstr "Gib deinen Instagram-Benutzernamen und dein Instagram-Passwort an um Instapress zu aktivieren"
+
+#: instagram-options.php:58
+msgid "Username"
+msgstr "Benutzername"
+
+#: instagram-options.php:62
+msgid "Password"
+msgstr "Passwort"
+
+#: instagram-options.php:66
+#: instagram-options.php:119
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: instagram-options.php:73
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: instagram-options.php:78
+msgid "Refresh cache after"
+msgstr "Cache aktualisieren nach"
+
+#: instagram-options.php:86
+msgid "minutes"
+msgstr "Minuten"
+
+#: instagram-options.php:92
+msgid "Cache is not active"
+msgstr "Caching wurde nicht aktiviert"
+
+#: instagram-options.php:99
+msgid "Disable any effects (e.g. fancybox)"
+msgstr "Alle Effekte (z.B. Fancybox) deaktivieren"
+
+#: instagram-options.php:101
+msgid "Note: Do only check this if you are having conflicts with other effects or if you do not want to use any effect"
+msgstr "Achtung: Wähle diese Option nur, wenn Probleme mit anderen Effekten auftreten oder du keine Effekte für Instapress verwenden möchtest"
+
+#: instagram-options.php:106
+msgid "Support Instapress by showing a backlink to http://instapress.it among widget or gallery"
+msgstr "Instapress durch einen Backlink zu http://instapress.it unterhalb des Widgets oder Galerie unterstützen"
+
+#: instagram-options.php:109
+msgid "Professional settings"
+msgstr "Profi Einstellungen"
+
+#: instagram-options.php:111
+msgid "Those settings may only affect you if you have a basic understanding for HTML."
+msgstr "Diese Einstellungen betreffen dich nur, wenn du ein Basiswissen in HTML hast."
+
+#: instagram-options.php:115
+msgid "Disable width and height attribute for images (e.g. for responsive layouts)"
+msgstr "width- und height-Attribute für Bilder (img-Tags) deaktiviern (z.B. für responsive Layouts)"
+
+#: instagram-options.php:123
+msgid "Trouble shooting"
+msgstr "Problembehebung"
+
+#: instagram-options.php:125
+msgid "If you're having troubles using this plugin, please be so kind as to report issues here: %s or by e-mail here: %s"
+msgstr "Wenn du Probleme mit dem Plugin hast, so informiere uns bitte darüber hier: %s oder per E-Mail hier: %s"
+
+#: instagram-options.php:128
+msgid "You love this plugin?"
+msgstr "Du liebst dieses Plugin?"
+
+#: instagram-options.php:130
+msgid "Then feel free to show your love. Unfortunately we don't like flowers but we would appreciate if you show your love by donating for this development. :)"
+msgstr "Dann zeig uns deine Liebe. Leider stehen wir aber nicht so sehr auf Blumen, daher würden wir uns mehr über eine Spende freuen ;)"
+
+#: instagram-options.php:133
+msgid "Thank you!"
+msgstr "Danke!"
+
+#: instagram-options.php:138
+#: instagram-options.php:139
+msgid "en_US"
+msgstr "de_DE"
+
+#: instagram-options.php:138
+msgid "Jetzt einfach, schnell und sicher online bezahlen – mit PayPal."
+msgstr "Jetzt einfach, schnell und sicher online bezahlen – mit PayPal."
+
+#: instagram.php:163
+msgid "Next"
+msgstr "Weiter"
+
+#: instagram.php:165
+msgid "Previous"
+msgstr "Zur&uuml;ck"
+
+#: instagram.php:683
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: instagram.php:687
+msgid "Instagram API reported the following error"
+msgstr "Das Instagram API hat folgenden Fehler gemeldet"
+
+#: instagram.php:785
+msgid "Like it on Facebook"
+msgstr "Werde Fan auf Facebook"
+
+#: instagram.php:787
+msgid "Visit our blog"
+msgstr "Besuche unseren Blog"
+
+#: instagram.php:893
+msgid "To improve performance of this plugin, it is highly recommended to make the directory wp-content or wp-content/cache writable. For further information click <a target=\"_blank\" href=\"%s\">here</a>"
+msgstr "Um die Performance des Plugins zu verbessern, empfehlen wir das Verzeichnis wp-content oder wp-content/cache beschreibbar zu machen. Weitere Infos findest du <a target=\"_blank\" href=\"%s\">hier</a>"
+
+#: instagram.php:895
+msgid "Instapress requires <a href=\"http://php.net/manual/en/book.curl.php\" target=\"_blank\">PHP cURL</a> extension to work properly"
+msgstr "Instapress benötigt die <a href=\"http://php.net/manual/en/book.curl.php\" target=\"_blank\">PHP cURL</a> Erweiterung um ordnungsgemäß zu funktionieren"
+
+#: instagram.php:897
+msgid "Instapress Geocoding won't work unless <a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> is activated"
+msgstr "Instapress Geocoding wird nicht funktionieren. Dazu muss <a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> aktiviert werden."
+
+#: tinymce/dialog.php:5
+msgid "Insert Instagram"
+msgstr "Instagram einfügen"
+
+#: tinymce/dialog.php:33
+msgid "Option:"
+msgstr "Option:"
+
+#: tinymce/dialog.php:35
+msgid "Instagram Feed"
+msgstr "Instagram Feed"
+
+#: tinymce/dialog.php:36
+msgid "Single Instagram"
+msgstr "Einzelnes Instagram"
+
+#: tinymce/dialog.php:77
+msgid "Image gallery:"
+msgstr "Bildergalerie:"
+
+#: tinymce/dialog.php:85
+msgid "URL"
+msgstr "URL"
+
+#: tinymce/dialog.php:89
+msgid "Facebook Like Button"
+msgstr "Facebook Like Button"
+
+#: tinymce/dialog.php:95
+msgid "Size (max. 612)"
+msgstr "Größe (max. 612)"
+
+#: tinymce/dialog.php:103
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: tinymce/dialog.php:107
+msgid "Insert"
+msgstr "Einfügen"
+
+#~ msgid "Show title (May decrease performance):"
+#~ msgstr "Titel anzeigen:"
