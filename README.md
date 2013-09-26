@@ -12,8 +12,9 @@ Hello
 -----
 
 Here are some links:
-1. [http://instapress.it/](http://instapress.it/)
-2. [http://wordpress.org/plugins/instapress/](http://wordpress.org/plugins/instapress/)
+
+* [http://instapress.it/](http://instapress.it/)
+* [http://wordpress.org/plugins/instapress/](http://wordpress.org/plugins/instapress/)
 
 Unfortunately this plugin needs many fixes and we don't have time to do them. 
 We got the proposal to push the plugin on github - and here we are...
