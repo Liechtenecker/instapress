@@ -3,7 +3,7 @@
 	Plugin Name: Instapress
 	Plugin URI: http://instapress.it
 	Description: <b>Highly customizable</b> plugin to display a feed of pictures uploaded via <a href="http://instagr.am" target="_blank">Instagram</a>. Display a users media, your own media or the popular media feed. Choose whether to integrate the Instagrams as a widget or directly in your posts.
-	Version: 1.5.3
+	Version: 1.5.4
 	Author: liechtenecker
 	Author URI: http://liechtenecker.at/
 	License: GPL2
@@ -66,25 +66,25 @@
 		function InstagramPlugin()
 		{
 			// Menü im Backend hinzufügen
-			add_action('admin_menu', array(&$this, 'admin_menu'));
+			add_action('admin_menu', array($this, 'admin_menu'));
 			
 			// Shortcode registrieren
-			add_shortcode('instapress', array(&$this, 'shortcode'));
+			add_shortcode('instapress', array($this, 'shortcode'));
 			
 			// Link in der Plugins-Liste zu den Einstellungen
-			add_filter('plugin_action_links', array(&$this, 'plugin_page_link'), 5, 2);
+			add_filter('plugin_action_links', array($this, 'plugin_page_link'), 5, 2);
 			
 			// Links unterhalb der Plugin-Beschreibung
-			add_filter('plugin_row_meta', array(&$this, 'plugin_row_meta'), 10, 2);
+			add_filter('plugin_row_meta', array($this, 'plugin_row_meta'), 10, 2);
 			
 			// Pfad in dem Cache-Dateien abgespeichert werden
 			$this->cachePath = ABSPATH.'wp-content/cache/';
 			
 			// Javascripts ergänzen
-			add_action('init', array(&$this, 'javascript'));
+			add_action('init', array($this, 'javascript'));
 			
-			add_action('wp_ajax_instapress_paging', array(&$this, 'ajax_instapress_paging'));
-			add_action('wp_ajax_nopriv_instapress_paging', array(&$this, 'ajax_instapress_paging'));
+			add_action('wp_ajax_instapress_paging', array($this, 'ajax_instapress_paging'));
+			add_action('wp_ajax_nopriv_instapress_paging', array($this, 'ajax_instapress_paging'));
 		}
 		
 		/**
@@ -303,12 +303,12 @@
 				$max_id = $nextMaxId;
 				// Feed eines Users ab der gegebenen max_id laden und nächsten max_id holen
 				if(!$tagFeed)
-					$data = InstagramPlugin::getFeedByUserId($userid, $max_id, &$nextMaxId, intval($values['piccount']));
+					$data = InstagramPlugin::getFeedByUserId($userid, $max_id, $nextMaxId, intval($values['piccount']));
 				// Feed eines Users nach Tag gefiltert ab der gegebenen max_id laden und nächsten max_id holen
 				else if($tagFeed && $userid)
-					$data = InstagramPlugin::getFeedByUserId($userid, $max_id, &$nextMaxId, intval($values['piccount']), new InstapressFeedFilter('tags', $values['tag'], InstapressFeedFilter::IN_ARRAY));
+					$data = InstagramPlugin::getFeedByUserId($userid, $max_id, $nextMaxId, intval($values['piccount']), new InstapressFeedFilter('tags', $values['tag'], InstapressFeedFilter::IN_ARRAY));
 				else // Feed nach angegebenem Tag laden
-					$data = InstagramPlugin::getFeedByTag($values['tag'], $max_id, &$nextMaxId, intval($values['piccount']));
+					$data = InstagramPlugin::getFeedByTag($values['tag'], $max_id, $nextMaxId, intval($values['piccount']));
 
 				// Daten im Feed gefunden
 				if(count($data) > 0)
@@ -381,7 +381,7 @@
 		 * Lädt den Feed für den angegebenen User
 		 * @param $userid mixed 	User-Id, 'self' oder 0/null/false
 		 * @param $max_id int 		ID ab der der Feed geladen werden soll
-		 * @param &$nextMaxId int	max_id die für den Aufruf der nächsten Seite des Feeds benötigt wird
+		 * @param $nextMaxId int	max_id die für den Aufruf der nächsten Seite des Feeds benötigt wird
 		 * @param $filter array		Liste mit Filter (z.B. 'tag' => 'myhashtag')
 		 * 
 		 * @return array der Feed (siehe Instagram API Dokumentation)
@@ -445,7 +445,7 @@
 		 * Lädt den Feed für den angegebenen Tag
 		 * @param $tag string	 	Hashtag nach dem gesucht werden soll
 		 * @param $max_id int 		ID ab der der Feed geladen werden soll
-		 * @param &$nextMaxId int	max_id die für den Aufruf der nächsten Seite des Feeds benötigt wird
+		 * @param $nextMaxId int	max_id die für den Aufruf der nächsten Seite des Feeds benötigt wird
 		 * 
 		 * @return array der Feed (siehe Instagram API Dokumentation)
 		 */
@@ -774,7 +774,7 @@
 					// In dieser Variable werden eventuelle Fehlermeldungen während der Autorisierung gespeichert
 					$errorMessage = "";
 					// Request an das API schicken, um einen Access-Token zu erhalten
-					$token = $instagram->getAccessToken(&$errorMessage);
+					$token = $instagram->getAccessToken($errorMessage);
 				
 					// Wenn es einen Access-Token gibt
 					if($token)
@@ -842,7 +842,7 @@
 		 */
 		function admin_menu()
 		{
-			add_options_page('Instapress '.__('Settings', 'instagram'), 'Instapress', 8, basename(__FILE__), array(&$this, 'handleOptions'));
+			add_options_page('Instapress '.__('Settings', 'instagram'), 'Instapress', 8, basename(__FILE__), array($this, 'handleOptions'));
 		}
 		
 		/**
@@ -1109,7 +1109,7 @@
 		$InstagramPlugin = InstagramPlugin::getInstance();
 		if (isset($InstagramPlugin)) 
 		{
-			register_activation_hook(__FILE__, array(&$InstagramPlugin, 'install'));
+			register_activation_hook(__FILE__, array($InstagramPlugin, 'install'));
 		}
 	endif;
 	

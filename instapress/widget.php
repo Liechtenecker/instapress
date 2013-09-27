@@ -26,7 +26,7 @@
 			$this->WP_Widget( 'instagram-widget', __('Instagram', 'instagram'), $wOptions, $cOptions );
 			
 			// Stylesheets ergänzen
-			add_action('init', array(&$this, 'stylesheet'));
+			add_action('init', array($this, 'stylesheet'));
 		}
 		
 		/**
@@ -77,12 +77,12 @@
 							
 						// Feed ab der gegebenen max_id laden und nächsten max_id holen
 						if(empty($instance['tag']))
-							$data = InstagramPlugin::getFeedByUserId($uid, $max_id, &$nextMaxId);
+							$data = InstagramPlugin::getFeedByUserId($uid, $max_id, $nextMaxId);
 						// Feed eines Users laden und nach Tag filtern
 						else if(!empty($instance['tag']) && !empty($uid))
-							$data = InstagramPlugin::getFeedByUserId($uid, $max_id, &$nextMaxId, 0, new InstapressFeedFilter('tags', $instance['tag'], InstapressFeedFilter::IN_ARRAY));
+							$data = InstagramPlugin::getFeedByUserId($uid, $max_id, $nextMaxId, 0, new InstapressFeedFilter('tags', $instance['tag'], InstapressFeedFilter::IN_ARRAY));
 						else
-							$data = InstagramPlugin::getFeedByTag($instance['tag'], $max_id, &$nextMaxId);
+							$data = InstagramPlugin::getFeedByTag($instance['tag'], $max_id, $nextMaxId);
 					}
 					
 					if(count($data) > 0)
