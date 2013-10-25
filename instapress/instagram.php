@@ -336,7 +336,7 @@
 						{
 							// jQuery Fancybox
 							case 'fancybox':
-								$result .= '<a href="'.$obj->images->standard_resolution->url.'" rel="instagram-sc-images" title="'.$title.'">';
+								$result .= '<a href="'.$obj->images->standard_resolution->url.'" class="fancybox instapress-fancybox" rel="instagram-sc-images" title="'.$title.'">';
 								break;
 							case 'highslide':
 								$result .= '<a href="'.$obj->images->standard_resolution->url.'" class="highslide instapress-highslide" title="'.$title.'">';
